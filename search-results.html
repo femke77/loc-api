@@ -11,9 +11,9 @@
 
 <body>
     <main class="min-100-vh search-el">
-        <div class="card">
+        <div class="card card-h">
             <h5 class="card-header text-center py-3">Library of Congress Search Engine</h5>
-            <div class="card-body">
+            <div class="card-body bg-form">
                 <form class="search-form">
                     <label for="search-input" class="form-label"></label>
                     <input type="text" class="form-control mb-1 search"  placeholder="Search!" />
@@ -29,14 +29,14 @@
                         <option value="websites">Websites</option>
                     </select> 
                     <button type="submit" class="w-100 btn btn-success mt-3 d-flex justify-content-center">Search</button>
-                    <a href="/" class="btn btn-danger mt-3 d-flex justify-content-center">Go Back</a>
+                    <a href="./index.html" class="btn btn-danger mt-3 d-flex justify-content-center">Go Back</a>
                 </form>
 
             </div>
         </div>
-        <div>
-            <h2 class="ps-3">Showing Results for <span id="search-term"></span></h2>
-            <section class="results">
+        <div class="res-section">
+            <h2 class="ps-3 res-title">Showing Results for <span id="search-term"></span></h2>
+            <section class="results ms-2">
 
             </section>
         </div>
